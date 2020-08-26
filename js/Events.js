@@ -157,5 +157,13 @@
       collection: invoiceItemCollection
     }).render()
 
+
+    /* 双向绑定：插件backbone.stickit */
+    /* https://github.com/nytimes/backbone.stickit */
+
+
+    /* 快捷键处理，Mousetrap库 */
+
+
   })
 }(jQuery) 
