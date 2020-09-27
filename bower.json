@@ -1,0 +1,20 @@
+{
+  "name": "demo",
+  "description": "backbone practise",
+  "main": "main.js",
+  "authors": [
+    "sunsh <sunsh8518@firstshare.cn>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/sunsonghao/backbone",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.0"
+  }
+}

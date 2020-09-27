@@ -5,7 +5,7 @@
     $('script.template').each(function(index) {
 
       // load template from DOM
-      $.tpl[$(this).attr('id')] = _.template($(this).html) // 函数
+      $.tpl[$(this).attr('id')] = _.template($(this).html()) // 函数
 
       // remove template from DOM
       $(this).remove()

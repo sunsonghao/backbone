@@ -1,0 +1,11 @@
+
+/node_modules
+/bower_components
+*.DS_Store
+*-html.js
+*.idea
+/.vscode/
+.vscode
+.idea
+npm-shrinkwrap.json
+package-lock.json
