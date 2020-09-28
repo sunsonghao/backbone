@@ -23,6 +23,7 @@ const remember = require('gulp-remember');
 
 const slash = require('slash')
 const sourcemaps = require('gulp-sourcemaps');
+const {black} = require('./extensionGulp');
 
 const through = require('through2');
 // const arguments = require('yargs').argv; // node > 10, http://www.ruanyifeng.com/blog/2015/05/command-line-with-node.html
@@ -123,6 +124,7 @@ exports.clean = clean;
 exports.test = test;
 exports.scripts = scripts;
 exports.styles = styles;
+exports.black = black;
 // 任何导出（export）的函数都将注册到 gulp 的任务（task）系统中
 exports.default = series(clean, parallel(styles, series(/* test, */ scripts), deps), server, watchs); // 初次构建
 // 可以使用ts或者babel编写该文件，需要安装对应模块转译。

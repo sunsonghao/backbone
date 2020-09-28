@@ -5,7 +5,7 @@ const jshint = require('gulp-jshint'); // 需要安装jshint
 const less = require('gulp-less');
 const cssnano = require('gulp-cssnano');
 const autoprefixer = require('gulp-autoprefixer');
-const del = require('del'); // 接口兼容gulp, 不是gulp的插件
+const del = require('del'); // 接口兼容gulp, 不是gulp的插件, 返回promise
 const merge = require('merge2')
 
 // 插入流，不会覆盖之前的流而是添加到新的流里面：仅仅添加新文件时可以使用，更复杂的需求使用合并流。
