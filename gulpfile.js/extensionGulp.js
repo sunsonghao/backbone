@@ -20,7 +20,7 @@ const source = require('vinyl-source-stream');
 const buffer = require('vinyl-buffer');
 const sourcemaps = require('gulp-sourcemaps');
 
-// 2. 添加基于流的工具：集成browserify（vue2）：它把node.js 处理模块的方法加以修改 ，变成了浏览器也能用的方法。
+// 2. 添加基于流的工具：集成browserify：它把node.js 处理模块的方法加以修改 ，变成了浏览器也能用的方法。
 // 不仅往全局空间添加require和module.exports还把引用模块打成包，浏览器加载好就能用。
 // https://v3.gulpjs.com.cn/docs/recipes/browserify-with-globs/     gulp v3版本的
 
